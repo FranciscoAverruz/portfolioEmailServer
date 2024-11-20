@@ -1,7 +1,6 @@
 /* eslint-disable no-undef */
 import express from "express";
 import nodemailer from "nodemailer";
-import bodyParser from "body-parser";
 import cors from "cors";
 import dotenv from "dotenv";
 
