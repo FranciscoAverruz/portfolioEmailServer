@@ -10,7 +10,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 app.use(cors({
-  origin: '*',
+  origin: 'https://franciscoaverruz.netlify.app, http://localhost:5173/',
   methods: 'POST',
   allowedHeaders: 'Content-Type'
 }));
